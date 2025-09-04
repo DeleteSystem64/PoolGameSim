@@ -42,7 +42,7 @@ This program was written in C++ for x86_64 Linux systems. It was built using Ope
 	- libbsd0
 	- libmd0
 
-## How to run
+## How to Run
 - The repo contains a pre-compiled executable: main/game.out
 - The easiest way to run the program is using the Makefile with the command: "make run"
 	- ensure that you are in the directory named 'main' when doing this
@@ -50,7 +50,7 @@ This program was written in C++ for x86_64 Linux systems. It was built using Ope
 	- game.out expects two command-line arguments
 	- The form of the call should be ```./game.out [vertex_shader].glsl [fragment_shader].glsl```
  	- I've already included these two shaders, named "vs.glsl" and "frag.glsl", both located in main directory
-## How to compile
+## How to Compile
 - If you wish to recompile the program, you can use the Makefile
 - While in the 'main' directory, type "make"
 - This will produce/overwrite "game.out" file
