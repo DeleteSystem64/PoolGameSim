@@ -1,0 +1,10 @@
+GL_LOG_FILE log. local time Thu Sep  4 03:45:39 2025
+
+starting GLFW 3.0.1 X11 GLX glXGetProcAddress clock_gettime /dev/jsrenderer: llvmpipe (LLVM 19.1.1, 256 bits)
+version: 4.5 (Compatibility Profile) Mesa 25.0.7-0ubuntu0.24.04.1
+creating shader from vs.glsl...
+shader compiled. index 1
+creating shader from frag.glsl...
+shader compiled. index 2
+created programme 3. attaching shaders 1 and 2...
+program 3 GL_VALIDATE_STATUS = GL_TRUE
