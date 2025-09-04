@@ -10,6 +10,16 @@ This program was written in C++ for x86_64 Linux systems. It was built using Ope
 - Will only run on an x86-64 Linux-based system
 - Requires a desktop environment, or at least some kind of graphical environment in which a window can be opened
 
+## Keyboard/Mouse controls
+- To give the cueball velocity, click and drag with MB1, then release
+- To exit the program, press Escape
+- Friction
+	- To increase friction, press '='
+	- To decrease friction, press '-'
+- Control Schemes
+	- To change the control scheme, press 'C'
+ 	- **"Push" control scheme**: when you click and drag with MB1 and release, the cueball will be given velocity in the opposite direction of which you dragged
+  	- **"Pull" control scheme**: when you click and drag with MB1 and release, the cueball will be given velocity in the same direction of which you dragged
 ## How to Install
 - Clone the repository or download the ZIP and extract into new directory
 - You'll need to download and install dependencies
@@ -34,7 +44,13 @@ This program was written in C++ for x86_64 Linux systems. It was built using Ope
 
 ## How to run
 - The repo contains a pre-compiled executable: main/game.out
-- To run the program, navigate to the main folder, and type ```./game.out```
+- The easiest way to run the program is using the Makefile with the command: "make run"
+	-ensure that you are in the directory named 'main' when doing this
+- Otherwise, you can run game.out manually
+	- game.out expects two command-line arguments
+	- The form of the call should be ```./game.out [vertex_shader].glsl [fragment_shader].glsl```
+ 	- I've already included these two shaders, named "vs.glsl" and "frag.glsl", both located in main directory
 ## How to compile
 - If you wish to recompile the program, you can use the Makefile
 - While in the 'main' directory, type "make"
+- This will produce/overwrite "game.out" file
