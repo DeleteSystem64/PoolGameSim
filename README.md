@@ -45,7 +45,7 @@ This program was written in C++ for x86_64 Linux systems. It was built using Ope
 ## How to run
 - The repo contains a pre-compiled executable: main/game.out
 - The easiest way to run the program is using the Makefile with the command: "make run"
-	-ensure that you are in the directory named 'main' when doing this
+	- ensure that you are in the directory named 'main' when doing this
 - Otherwise, you can run game.out manually
 	- game.out expects two command-line arguments
 	- The form of the call should be ```./game.out [vertex_shader].glsl [fragment_shader].glsl```
